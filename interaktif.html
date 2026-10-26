@@ -1,0 +1,10 @@
+<section class="content-panel">
+  <div class="panel-heading"><span class="eyebrow">FITUR INTERAKTIF</span><h2>Kalkulator biaya cetak</h2><p>Hitung perkiraan biaya berdasarkan layanan, halaman, dan jumlah rangkap.</p></div>
+  <form id="form-kalkulator" class="form-grid">
+    <div class="form-field full"><label for="jenis-cetak">Jenis layanan</label><select id="jenis-cetak" name="jenis-cetak" required><option value="">Pilih layanan</option><option value="300">Fotokopi hitam putih — Rp300/halaman</option><option value="500">Print hitam putih — Rp500/halaman</option><option value="1500">Print berwarna — Rp1.500/halaman</option></select></div>
+    <div class="form-field"><label for="jumlah-halaman">Jumlah halaman</label><input id="jumlah-halaman" type="number" min="1" step="1" placeholder="Contoh: 20" required></div>
+    <div class="form-field"><label for="jumlah-rangkap">Jumlah rangkap</label><input id="jumlah-rangkap" type="number" min="1" step="1" placeholder="Contoh: 2" required></div>
+    <div class="full"><button class="button button-primary" type="submit">Hitung Total Biaya</button></div>
+  </form>
+  <div id="hasil-kalkulator" class="result-box" aria-live="polite"><span>Perkiraan total biaya</span><strong>Rp0</strong><small>Hasil akan muncul setelah kamu menghitung.</small></div>
+</section>

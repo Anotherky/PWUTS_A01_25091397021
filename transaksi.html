@@ -1,0 +1,13 @@
+<section class="content-panel">
+  <div class="panel-heading"><span class="eyebrow">FORM TRANSAKSI</span><h2>Pemesanan cetak</h2><p>Isi data berikut untuk membuat simulasi pesanan cetak.</p></div>
+  <form id="form-transaksi" class="form-grid" novalidate>
+    <div class="form-field"><label for="nama-pelanggan">Nama pelanggan <span>*</span></label><input id="nama-pelanggan" name="nama" type="text" placeholder="Nama lengkap" required></div>
+    <div class="form-field"><label for="layanan-pesanan">Layanan <span>*</span></label><select id="layanan-pesanan" name="layanan" required><option value="">Pilih layanan</option><option value="Fotokopi hitam putih">Fotokopi hitam putih</option><option value="Print hitam putih">Print hitam putih</option><option value="Print berwarna">Print berwarna</option></select></div>
+    <div class="form-field"><label for="halaman-pesanan">Jumlah halaman <span>*</span></label><input id="halaman-pesanan" name="halaman" type="number" min="1" step="1" placeholder="Minimal 1" required></div>
+    <div class="form-field"><label for="rangkap-pesanan">Jumlah rangkap <span>*</span></label><input id="rangkap-pesanan" name="rangkap" type="number" min="1" step="1" placeholder="Minimal 1" required></div>
+    <div class="form-field full"><label for="catatan-pesanan">Catatan (opsional)</label><textarea id="catatan-pesanan" name="catatan" rows="3" placeholder="Contoh: cetak satu sisi, kertas A4"></textarea></div>
+    <div class="full"><button class="button button-primary" type="submit">Buat Pesanan</button></div>
+  </form>
+  <div id="pesan-transaksi" class="notice" aria-live="polite"></div>
+  <div id="ringkasan-pesanan" class="order-summary" hidden></div>
+</section>
