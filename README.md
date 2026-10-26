@@ -1,7 +1,7 @@
 # CopyKuy — Sistem Website Fotokopi
 
 **Nama:** Mochammad Zacky Firmansyah  
-**NIM:** [Isi NIM kamu]  
+**NIM:** 25091397021  
 **Mata kuliah:** UTS Pemrograman Web
 
 ## Bagian yang dikerjakan
